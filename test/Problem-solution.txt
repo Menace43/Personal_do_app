@@ -1,0 +1,17 @@
+
+# Kepps track of all the problems I have the the necessary solutions I took
+
+
+[#1] Problem: {Error} 2023-10-22 15:29:39.146 Python[87894:3984843] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing
+NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES. 
+   The error was making the clicking of buttons on tkinter to be very slow
+solution: Had to upgrade from python3.10 to python3.12 and update pip3. But the warning still appears while the problem is solved
+
+
+[#2] Problem: {Error} UnboundLocalError: cannot access local variable 'button' where it is not associated with a value
+because button=customtkinter.CTkButton(self.calendartable_frame,text=label,width=15,fg_color="transparent",hover_color="blue",command=lambda txt=label,
+button=button: self.day_btn_clicked(txt,button)). 
+  It seems like the button can't be added alongside the txt.
+solution: Just create a list of buttons and  pass the row in the list and use that
+button = tk.Button(root, text=f"Button {i}", command=lambda i=i: on_button_click(i))
+buttons.append(button)

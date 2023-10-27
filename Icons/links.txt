@@ -1,0 +1,6 @@
+
+[1] Send letter icon: #<a target="_blank" href="https://icons8.com/icon/124435/send-letter">Send Letter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+[2] Calendar icon: <a target="_blank" href="https://icons8.com/icon/43563/today">Today</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+[3] Three dot icon: <a target="_blank" href="https://icons8.com/icon/L0eWGAUlLZfp/dots-loading">Dots Loading</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+[4] Star icon: <a target="_blank" href="https://icons8.com/icon/16101/star">Star</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+[5] Alarm Clock: https://icons8.com/icons/set/alarm-clock
