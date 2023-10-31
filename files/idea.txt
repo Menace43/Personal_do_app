@@ -1,0 +1,16 @@
+
+
+-- Version 1.1.0
+   - Save to json file
+   - Calendar Frame already done
+   - Additional details done
+   - Removing and adding tasks from the scrollable frame
+   - Basically the task part of the app is done
+
+
+-- Version 1.2.0
+   - Total redesign of the task part ie 
+      - making frames smaller
+      - making the entry box with the different items smaller
+      - putting all the details like date,time,additional details and star into one class
+      -
