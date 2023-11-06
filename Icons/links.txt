@@ -4,3 +4,7 @@
 [3] Three dot icon: <a target="_blank" href="https://icons8.com/icon/L0eWGAUlLZfp/dots-loading">Dots Loading</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 [4] Star icon: <a target="_blank" href="https://icons8.com/icon/16101/star">Star</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 [5] Alarm Clock: https://icons8.com/icons/set/alarm-clock
+
+
+
+[6] Calendar icon-20 : <a target="_blank" href="https://icons8.com/icon/IcbuaYQe9YGC/calendar">Calendar</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

@@ -2,6 +2,11 @@
 
 import re
 from icecream import ic
+import customtkinter
+import sys
+
+sys.path.insert(0, '/Users/joel/Projects/sideprojects/Personal_Todo_App/')
+from Task_frame import *
 
 class Classic_Tests:
     
@@ -28,7 +33,25 @@ class Send_value():
         }
         return res
 
+# if __name__ =="__main__":
+#     Tests=Classic_Tests()
+#     #print(Tests.validate_time_format("12:00 AM"))
+#     ic(Tests.clicked_on())
+
+
+class App(customtkinter.CTk):
+    def __init__(self):
+        super().__init__()
+
+        self.title("my app")
+        self.geometry("400x180")
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_rowconfigure(0, weight=1)
+
+        self.checkbox_frame = Task_frame_builder(self)
+        self.checkbox_frame.grid(row=0, column=0, padx=10, pady=(10, 0), sticky="nswe")
+
+
 if __name__ =="__main__":
-    Tests=Classic_Tests()
-    #print(Tests.validate_time_format("12:00 AM"))
-    ic(Tests.clicked_on())
+    app = App()
+    app.mainloop()
